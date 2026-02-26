@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateus & Bruna | Casamento</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@400;500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- SEO & Open Graph Meta Tags -->
+    <meta name="description" content="Site digital para o casamento de MATEUS MONTEIRO FREITAS e BRUNA FERREIRA MEDINA. Confirme sua presença e acesse a nossa lista de presentes.">
+    <meta name="theme-color" content="#FFFFFF">
+    
+    <meta property="og:title" content="Casamento: Mateus & Bruna">
+    <meta property="og:description" content="Confirme sua presença e acesse a lista de presentes neste dia tão especial para nós.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brunaemateus.vercel.app"> <!-- Preencher com o link do deploy -->
+    
+    <!-- Favicon (M&B Dourado Vector Base64) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='white'/><text x='50' y='65' font-family='Cormorant Garamond, serif' font-size='50' fill='%23C9A96E' text-anchor='middle'>M&amp;B</text></svg>">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Navbar / Menu Fixo -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-brand">M & B</a>
+            
+            <!-- Mobile Menu Button -->
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Desktop/Mobile Links -->
+            <ul class="nav-links">
+                <li><a href="#hero">Convite</a></li>
+                <li><a href="#detalhes">Detalhes</a></li>
+                <li><a href="#rsvp">Confirmar Presença</a></li>
+                <li><a href="#presentes">Presentes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- SEÇÃO 1: HERO / CONVITE -->
+    <section id="hero" class="hero-section reveal reveal-scale">
+        <!-- Background Ornaments & Glows -->
+        <div class="hero-ornaments">
+            <!-- Luzes Pulsantes Lilás -->
+            <div class="lilac-glow glow-1"></div>
+            <div class="lilac-glow glow-2"></div>
+            <div class="lilac-glow glow-3"></div>
+            
+            <!-- Elementos Botânicos Fixos -->
+            <div class="watercolor-top-right"></div>
+            <div class="watercolor-bottom-left"></div>
+        </div>
+
+        <div class="hero-content">
+            <h4 class="blessing-text">Com a bênção de Deus e de seus pais</h4>
+            
+            <div class="parents-grid">
+                <div class="parents-col">
+                    Sandra Monteiro<br>Jose Luiz
+                </div>
+                <div class="parents-col">
+                    Nara Ferreira<br>Sergio Medina
+                </div>
+            </div>
+
+            <div class="hero-names-layout">
+                <div class="name-column">
+                    <h1 class="first-name">MATEUS</h1>
+                    <p class="surname">MONTEIRO FREITAS</p>
+                </div>
+                <div class="ampersand-column">
+                    <span class="ampersand">&amp;</span>
+                </div>
+                <div class="name-column">
+                    <h1 class="first-name">BRUNA</h1>
+                    <p class="surname">FERREIRA MEDINA</p>
+                </div>
+            </div>
+
+            <h3 class="invite-text">Convidam para celebrar o seu casamento</h3>
+            
+            <div class="date-highlight">08 . 08 . 2026</div>
+            
+            <div class="monogram-divider">M&B</div>
+
+            <a href="#detalhes" class="btn-outline-gold cta-scroll">
+                &darr; Ver Detalhes
+            </a>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 2: DETALHES -->
+    <section id="detalhes" class="details-section section-padding">
+        <div class="section-header text-center reveal reveal-bottom">
+            <h2 class="section-title">Detalhes do Evento</h2>
+            <div class="monogram-divider small-divider">M&B</div>
+        </div>
+
+        <div class="cards-container">
+            <!-- Card Cerimônia -->
+            <div class="detail-card reveal reveal-bottom delay-100">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" width="45" height="45" stroke="currentColor" stroke-width="1" fill="none" class="gold-icon">
+                        <path d="M12 2C12 2 9 6 9 9C9 10.65 10.34 12 12 12C13.66 12 15 10.65 15 9C15 6 12 2 12 2Z" />
+                        <rect x="9" y="12" width="6" height="10" rx="1" />
+                        <line x1="6" y1="22" x2="18" y2="22" />
+                    </svg>
+                </div>
+                <h3 class="card-label">Cerimônia</h3>
+                <div class="card-info">
+                    <p class="card-time">20h &mdash; 08 de Agosto de 2026</p>
+                    <p class="card-place">Paróquia Santo Inácio de Loyola</p>
+                    <p class="card-address">Av. Gov. Ernesto Dorneles, 695<br>Santo Inácio, Esteio</p>
+                </div>
+                <a href="https://maps.google.com/?q=Paróquia+Santo+Inácio+de+Loyola+Esteio" target="_blank" class="btn-link-gold">
+                    Ver no Mapa &rarr;
+                </a>
+            </div>
+
+            <!-- Card Recepção -->
+            <div class="detail-card reveal reveal-bottom delay-300">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" width="45" height="45" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round" class="gold-icon">
+                        <path d="M12 3v12m0 0a3 3 0 01-3-3V3h6v9a3 3 0 01-3 3zM9 21h6m-3-6v6"/>
+                    </svg>
+                </div>
+                <h3 class="card-label">Recepção</h3>
+                <div class="card-info">
+                    <p class="card-time">Logo após a cerimônia</p>
+                    <p class="card-place">Salão Must Eventos</p>
+                    <p class="card-address">Av. Castro Alves, 795<br>Santa Catarina, Sapucaia do Sul</p>
+                </div>
+                <a href="https://maps.google.com/?q=Salão+Must+Eventos+Sapucaia+do+Sul" target="_blank" class="btn-link-gold">
+                    Ver no Mapa &rarr;
+                </a>
+            </div>
+        </div>
+
+        <div class="verse-container reveal reveal-bottom delay-400">
+            <p class="bible-verse">
+                “O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha. 
+                Não maltrata, não procura seus interesses, não se ira facilmente, não guarda rancor. 
+                O amor não se alegra com a injustiça, mas se alegra com a verdade. Tudo sofre, 
+                tudo crê, tudo espera, tudo suporta.”<br><br>
+                <strong>1 Coríntios 13:4-7</strong>
+            </p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 3: RSVP -->
+    <section id="rsvp" class="rsvp-section section-padding">
+        <div class="rsvp-container">
+            <div class="section-header text-center reveal reveal-bottom">
+                <h2 class="section-title">Confirme sua Presença</h2>
+                <div class="monogram-divider small-divider">M&B</div>
+            </div>
+            
+            <div class="rsvp-card reveal reveal-scale delay-200">
+                <!-- FORMULÁRIO (Configurado para o FORMSPREE) -->
+                <form id="rsvp-form" action="https://formspree.io/f/mpqjbedr" class="rsvp-form" method="POST">
+                    <div class="form-group">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefone">Telefone/WhatsApp</label>
+                        <input type="tel" id="telefone" name="telefone" required placeholder="(XX) XXXXX-XXXX">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="acompanhantes">Número de acompanhantes (além de você)</label>
+                        <select id="acompanhantes" name="acompanhantes" required>
+                            <option value="0">Nenhum (Vou sozinho)</option>
+                            <option value="1">1 acompanhante</option>
+                            <option value="2">2 acompanhantes</option>
+                            <option value="3+">3 ou mais acompanhantes</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group toggle-group">
+                        <label>Possui alguma restrição alimentar?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="restricao_toggle" value="nao" checked> Não</label>
+                            <label><input type="radio" name="restricao_toggle" value="sim"> Sim</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group hidden" id="restricao-container">
+                        <label for="restricao_detalhes">Qual(is)?</label>
+                        <input type="text" id="restricao_detalhes" name="restricao_detalhes" placeholder="Ex: Intolerância a lactose, vegano, etc.">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem para os noivos (Opcional)</label>
+                        <textarea id="mensagem" name="mensagem" rows="3" placeholder="Deixe um recado carinhoso, ou engraçado. Eles vão adorar!"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-solid-gold btn-block">
+                        💌 Confirmar Presença
+                    </button>
+                    
+                    <p class="deadline-text">Confirme até 08 de Julho de 2026</p>
+                </form>
+                
+                <!-- Success Message -->
+                <div id="rsvp-success" class="rsvp-success hidden">
+                    <div class="success-icon">🎉</div>
+                    <h3>Uhuuu!</h3>
+                    <p>Sua presença foi confirmada! Mateus e Bruna mal podem esperar para te ver lá!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 4: PRESENTES -->
+    <section id="presentes" class="gifts-section section-padding">
+        <div class="section-header text-center reveal reveal-bottom">
+            <h2 class="section-title">Lista de Presentes</h2>
+            <div class="monogram-divider small-divider">M&B</div>
+            <p class="section-subtitle">Escolha um presente e ajude o casal a ter uma lua de mel inesquecível (e sobreviver ao casamento) 😄</p>
+        </div>
+
+        <div class="filters-container reveal reveal-bottom delay-200">
+            <button class="filter-chip active" data-filter="todos">Todos</button>
+            <button class="filter-chip" data-filter="ate100">Até R$100</button>
+            <button class="filter-chip" data-filter="100a300">R$100–R$300</button>
+            <button class="filter-chip" data-filter="acima300">Acima de R$300</button>
+            <button class="filter-chip" data-filter="luademel">Lua de Mel</button>
+            <button class="filter-chip" data-filter="sobrevivencia">Sobrevivência</button>
+        </div>
+
+        <div class="gifts-grid" id="gifts-grid">
+            <!-- Gerado via JS -->
+        </div>
+    </section>
+
+    <!-- MODAL PIX -->
+    <div id="pix-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <div class="modal-emoji" id="modal-emoji">🎁</div>
+                <h3 id="modal-title">Nome do Presente</h3>
+                <p id="modal-price" class="modal-price-text">R$ 0,00</p>
+            </div>
+            
+            <div class="chave-pix-container">
+                <input type="text" id="chave-pix" class="pix-key-input" value="(51)983132916" readonly>
+                <button id="copy-pix" class="btn-copy">📋 Copiar Chave PIX</button>
+            </div>
+            
+            <div class="donator-form">
+                <label for="donator-name">Seu nome (para identificarmos seu presente)</label>
+                <input type="text" id="donator-name" placeholder="Digite seu nome" required>
+                <p class="donator-hint">Após o pagamento, seu nome aparecerá automaticamente como presenteador. Obrigado! 💛</p>
+                <button id="confirm-gift" class="btn-solid-gold btn-block">Confirmar Pagamento</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SEÇÃO 5: RODAPÉ -->
+    <footer class="footer reveal reveal-bottom delay-200">
+        <div class="footer-content">
+            <div class="watercolor-top-right footer-flower"></div>
+            <div class="monogram-divider footer-divider">M&B</div>
+            <p class="footer-date">08 . 08 . 2026</p>
+            <p class="footer-sign">Com amor, Bruna & Mateus</p>
+            <p class="footer-verse">"O amor é paciente, o amor é bondoso..." &mdash; 1 Coríntios 13:4-7</p>
+            <div class="watercolor-bottom-left footer-flower" style="bottom: 0;"></div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- BOTÃO VOLTAR AO TOPO -->
+    <button id="back-to-top" class="back-to-top" aria-label="Voltar para o topo">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <script src="app.js"></script>
+</body>
+</html>
