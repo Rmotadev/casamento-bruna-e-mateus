@@ -1151,8 +1151,8 @@ h6 {
     .ampersand-column {
         width: auto;
         padding-bottom: 0;
-        margin-top: -15px;
-        margin-bottom: -15px;
+        margin-top: -5px;
+        margin-bottom: -5px;
         z-index: 2;
     }
 
@@ -1162,9 +1162,13 @@ h6 {
     }
 
     .parents-grid {
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: row;
+        gap: 10px;
         margin-bottom: 40px;
+    }
+
+    .parents-col {
+        font-size: 0.85rem;
     }
 
     .cards-container {
@@ -1182,6 +1186,23 @@ h6 {
 
     .monogram-divider::after {
         right: -45px;
+    }
+
+    .hero-ornaments .watercolor-top-right,
+    .hero-ornaments .watercolor-bottom-left {
+        width: 350px;
+        height: 350px;
+        opacity: 0.6;
+    }
+
+    .hero-ornaments .watercolor-top-right {
+        top: -20px;
+        right: -20px;
+    }
+
+    .hero-ornaments .watercolor-bottom-left {
+        bottom: -40px;
+        left: -20px;
     }
 
     .gifts-grid {
@@ -1237,6 +1258,24 @@ h6 {
    MEDIA QUERIES ULTRA MOBILE (Telas muito pequenas < 480px)
 ========================================================================= */
 @media (max-width: 480px) {
+
+    .hero-ornaments .watercolor-top-right,
+    .hero-ornaments .watercolor-bottom-left {
+        width: 280px;
+        height: 280px;
+        opacity: 0.5;
+    }
+
+    .hero-ornaments .watercolor-top-right {
+        top: -10px;
+        right: -10px;
+    }
+
+    .hero-ornaments .watercolor-bottom-left {
+        bottom: -20px;
+        left: -10px;
+    }
+
     .hero-names-layout {
         flex-direction: column;
     }
